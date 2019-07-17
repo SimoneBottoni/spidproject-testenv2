@@ -1,0 +1,25 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://54.164.84.39:8080/" ID="_681a637-6cd4-434f-92c3-4fed720b2ad8">
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFfTCCA2UCFHt+1iWi1I3hmu+fjZJrVeNBLFq/MA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQnJlbnRhMRAwDgYDVQQKDAdTdHVkZW50MRAwDgYDVQQLDAdTdHVkZW50MScwJQYDVQQDDB5odHRwczovL3NwaWR0ZXN0Lmhlcm9rdWFwcC5jb20wHhcNMTkwNzA4MTEyOTM0WhcNMjAwNzA3MTEyOTM0WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDzANBgNVBAcMBkJyZW50YTEQMA4GA1UECgwHU3R1ZGVudDEQMA4GA1UECwwHU3R1ZGVudDEnMCUGA1UEAwweaHR0cHM6Ly9zcGlkdGVzdC5oZXJva3VhcHAuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnk5TCIooSPzvnAS9aEZn5Ix7gpXLY6nuJFEUKzmNeMNthiJkFnIsnof4e9/5jB+2s5n1Sj5BCUQ9JZgYJ6+dr98Efn3dLAtveD3vE+IjyVqfKvpO9fQ0UR9HKUXOPcCXjjWfAIMSZ/FtAlomw5+TaNRKY/0r/OTqXSsRX5s+CEwWytGVmd4JzWnCpk0n1Z+lNOx6yIc5cjxjJ/VCHdNUk4htvA1cKv2yU33SN3MBYEGDSps8JDCoMGpOJCLn5/W19c+bQSZFcKkzuhjz7+gnNCPPqG6I5BO5i1EgQThHktdel3gM9SHCmEPqg/hgM5Dgu6QESyfUMKf1qO+/ATRf/m8XOb0vZ69R/UAy+UF9vQ/xKS4tRhDsq0TF9qmfxldR5LgFdS6hSg1TB/5UZLnoAysd/dv5rymrofW21AsTvmypSlh4srSjvKqcJzrTbkPJpVcS51V+Z6DUsOoOboci8GRnkaPyNQYzwxgCUo+OMEmJPZ0CeHFF1FDhwCRv+ilfQlm60uxQZI/cfjGHX/Yo8NlBKVWav6JKGKEJRrvN5W7OafMM1laOWoqiqYgpm4G64lYqjYsbuLRCar3y7iV8yZ6yYIrOs8spELfdoK3LQTCZ2/J0zhIeoffa/l7Sjs17n8Wm2zhOT3Q4RxgkvI0wGatIqda+KkEHMuUDY3Eqtv8CAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAD08Z/7txT2ggj4bkvasBhmLYLcQIMC/48h3fyF4Omd+7VYmFsrTnQpOEktMnF+YMj5uFbWv6eM6Hu7UtiC7S73fbRq1brx+RLI3aeRvcOvlHFWCWWOi/AQAAP7v9mKI6Y9QHdogO+KO6GqY72qC1xmDrr3eWaHvVjsLv906J3Jf5I+VC5koVuRPr+qaOproVw5MZZHmbBpuzdjVU6XaJHD9VKWTR5hHw9zvB2P+ep+5GLo4vSLDqSR7vqbtIMDGvxkKMc5Phz7GVSywlTixXLskhwn1yQpyJoW5B/4aeYAy3TdbyALD0kSutKcHfm/T9cnoXHPveU3l9dO/cXKg8vxcswDjCV7UX5vdK1brIGtVbKQ/VmIvol7kzCTt1eiKJOVGbn4Dse7cV2oShPA7uV0jQw5nmNxysEwPg4kvIdI3JTUu7Dqcl6g2EyRsKpoWFThUlKmM7KLxm2I95EiNylFCh/+R980IYqqa2K8s3oDIh2LB+B9l0EFGGD9AANfUrxJSzMLi+vohBTBEt56L5MUMKjYc7rOR3ZCAQM2DrR+upNHBwpR7KlmSHJY2ZQtWVR7x7mQ3HDg2veShiCdHqZbT50WmUeSYzgnydXu/yWKa702z8k8kynPvZj16b5IBV/n5azqLaWxXfxEkp09SFYfXv1TdCCU1beh1SRJB6FQE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://54.164.84.39:8080/spid-slo"/>
+<md:NameIDFormat>
+urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://54.164.84.39:8080/spid-sso" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">Service 1</md:ServiceName>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+</md:EntityDescriptor>
