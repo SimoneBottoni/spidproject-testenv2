@@ -41,17 +41,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 ```
 
-## Requisiti
+- Autostart Docker
 ```
-sudo apt-get install libxmlsec1 libffi6
+sudo systemctl enable docker
 ```
 
-## Requisiti
+## Requisiti TestEnv2
 ```
+sudo apt-get install libxmlsec1 libffi6
 git clone https://github.com/italia/spid-testenv2.git
 cd spid-testenv2
 pip install -r requirements.txt
 ```
+
 ## Installazione
 - Directory mappata in conf/ all'interno del container
 ```
