@@ -62,7 +62,7 @@ mkdir /etc/spid-testenv2
 
 - Creare nella directory il file config.yaml e la coppia chiave/certificato per l'IdP, nonché eventuali metadata SP.
 
-- Per creare le chiavi
+- Creare la coppia chiave/certificato
 ```
 openssl req -x509 -nodes -days 730 -sha256 -subj '/C=IT' -newkey rsa:2048 -keyout idp.key -out idp.crt
 ```
