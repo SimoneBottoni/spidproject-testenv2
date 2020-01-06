@@ -1,4 +1,4 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://54.164.84.39:8080/" ID="_681a637-6cd4-434f-92c3-4fed720b2ad8">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://3.224.228.76:8080/" ID="_681a637-6cd4-434f-92c3-4fed720b2ad8">
 <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
 <md:KeyDescriptor use="signing">
 <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -9,11 +9,11 @@ MIIFfTCCA2UCFHt+1iWi1I3hmu+fjZJrVeNBLFq/MA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklU
 </ds:X509Data>
 </ds:KeyInfo>
 </md:KeyDescriptor>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://54.164.84.39:8080/spid-slo"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://3.224.228.76:8080/spid-slo"/>
 <md:NameIDFormat>
 urn:oasis:names:tc:SAML:2.0:nameid-format:transient
 </md:NameIDFormat>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://54.164.84.39:8080/spid-sso" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://3.224.228.76:8080/spid-sso" index="0" isDefault="true"/>
 <md:AttributeConsumingService index="0">
 <md:ServiceName xml:lang="it">SpidProject</md:ServiceName>
 <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>

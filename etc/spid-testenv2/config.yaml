@@ -3,7 +3,7 @@
 
 # URL da usare per generare l'entityID dell'IdP e gli URL degli endpoint
 # SAML indicati nel metadata dell'IdP
-base_url: "http://3.220.251.158:8088"
+base_url: "http://3.225.59.88:8088"
 
 # Chiave e certificato necessari per la firma dei messaggi SAML
 key_file: "./conf/idp.key"
